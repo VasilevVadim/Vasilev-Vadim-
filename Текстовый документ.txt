@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main () 
+{
+int x;
+int y;
+y=0;
+printf ("Введите значения х:\n");
+scanf ("%d",&x);
+getchar();
+x = pow(x,2);
+y= x + 3;
+printf ("y равен = %d",y);
+
+
+return(0);
